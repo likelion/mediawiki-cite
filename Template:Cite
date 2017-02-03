@@ -1,0 +1,4 @@
+{{#if: {{{page|}}}
+|{{#tag:ref|{{#show:{{{page|}}}|?{{{ref|}}}-authors#}} - {{#if:{{#show:{{{page|}}}|?{{{ref|}}}-url#}}|[{{#show:{{{page|}}}|?{{{ref|}}}-url#}}|}} {{#show:{{{page|}}}|?{{{ref|}}}-title#}}{{#if:{{#show:{{{page|}}}|?{{{ref|}}}-url#}}|]|}}{{#if:{{#show:{{{page|}}}|?{{{ref|}}}-publisher#}}|, {{#show:{{{page|}}}|?{{{ref|}}}-publisher#}}|}}{{#if: {{#show:{{{page|}}}|?{{{ref|}}}-year#}}|, {{#show:{{{page|}}}|?{{{ref|}}}-year#}}|}}|name={{{ref|}}}}}{{#if:{{{pages|}}}|{{#tag:sup|(pp. {{{pages|}}})}}|}}
+|'''{{#tag:span|{{{ref|}}}|style="color:#c00"|title="Please, specify 'page' attribute when citing"}}'''
+}}
