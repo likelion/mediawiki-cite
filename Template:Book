@@ -1,0 +1,9 @@
+{{#if: {{{ref|}}}
+[[{{{ref|}}}-type::book]]
+|{{#if: {{{authors|}}}|[[{{{ref|}}}-authors::{{{authors|}}}]]|}}
+{{#if: {{{title|}}}|[[{{{ref|}}}-title::{{{title|}}}]]|}}
+{{#if: {{{publisher|}}}|[[{{{ref|}}}-publisher::{{{publisher|}}}]]|}}
+{{#if: {{{year|}}}|[[{{{ref|}}}-year::{{{year|}}}]]|}}
+{{#if: {{{url|}}}|[[{{{ref|}}}-url::{{{url|}}}]]|}}
+|'''{{#tag:span|Book definition error: missing 'ref' attribute|style="color:#c00"}}'''
+}}
